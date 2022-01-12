@@ -118,10 +118,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="399" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.672@0.0.1280.672" timestamp="1641274307495" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1641970157089">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1641970539976">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1641970157089" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1641970539976" />
     <state x="421" y="54" key="FileChooserDialogImpl" timestamp="1641304064699">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -150,6 +150,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1641931398327" />
+    <state x="233" y="58" key="Vcs.Push.Dialog.v2" timestamp="1641970546214">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="233" y="58" key="Vcs.Push.Dialog.v2/0.0.1280.672@0.0.1280.672" timestamp="1641970546214" />
     <state x="337" y="160" key="com.intellij.ide.util.TipDialog" timestamp="1641969330522">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
