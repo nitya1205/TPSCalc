@@ -1,18 +1,28 @@
 package Utility;
-import io.lettuce.core.RedisClient;
-import io.lettuce.core.api.StatefulRedisConnection;
-import io.lettuce.core.api.sync.RedisCommands;
-import org.springframework.boot.SpringApplication;
+import Utility.service.TerminateBean;
+import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import redis.clients.jedis.*;
-
-import javax.swing.*;
-import java.util.Set;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class ApplicationReddis {
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationReddis.class,args);
+        //SpringApplication.run(ApplicationReddis.class, args);
+        ConfigurableApplicationContext ctx = new SpringApplicationBuilder(ApplicationReddis.class)
+                .web(WebApplicationType.NONE).run();
+        System.out.println("Spring Boot application started");
+        ctx.getBean(TerminateBean.class);
+        ctx.close();
+        /*int exitCode = SpringApplication.exit(ctx, new ExitCodeGenerator() {
+            @Override
+            public int getExitCode() {
+                // return the error code
+                return 0;
+            }
+        });
+
+        System.exit(exitCode);*/
     }
 }
     //private static final String YOUR_CONNECTION_STRING = "redis://localhost:6379/";

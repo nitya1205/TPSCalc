@@ -14,7 +14,7 @@ public class RedisService implements CacheManager {
 
     @Override
     public int retrieveData(RedisCommands<String, String> sync, String accountNumberInput) {
-        String receivedValue= (String) sync.get(accountNumberInput);
+        String receivedValue= sync.get(accountNumberInput);
         if(receivedValue!=null){
             return Integer.parseInt(sync.get(accountNumberInput));
         }

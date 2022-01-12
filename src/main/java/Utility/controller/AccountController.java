@@ -1,6 +1,10 @@
 package Utility.controller;
 
 import Utility.service.AccountTPSCalc;
+import org.springframework.beans.BeansException;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,8 +12,21 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/test")
-public class AccountController {
+//@RequestMapping("/test")
+public class AccountController{
+    private ApplicationContext context;
+
+    @PostMapping("/shutdownContext")
+    public void shutdownContext() {
+        System.out.println("i came here");
+        ((ConfigurableApplicationContext) context).close();
+    }
+
+    /*@Override
+    public void setApplicationContext(ApplicationContext ctx) throws BeansException {
+        this.context = ctx;
+
+    }*/
     @PostMapping("/accountStatus")
     public ResponseEntity<String> accountTranStatus(@RequestBody String accountNumber){
         System.out.println(accountNumber);

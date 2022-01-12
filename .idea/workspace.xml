@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd3acee0-0ddf-4a23-bc62-09483a95c44a" name="Default Changelist" comment="" />
+    <list default="true" id="fd3acee0-0ddf-4a23-bc62-09483a95c44a" name="Default Changelist" comment="changes commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utility/config/ShutdownConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utility/service/TerminateBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utility/ApplicationReddis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/ApplicationReddis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utility/config/AccountConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/config/AccountConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utility/config/CacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/config/CacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utility/config/RedisConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/config/RedisConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utility/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utility/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ReddisUtil-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utility/ApplicationReddis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utility/ApplicationReddis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utility/config/AccountConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utility/config/AccountConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utility/config/CacheManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utility/config/CacheManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +49,7 @@
     </option>
   </component>
   <component name="ProjectId" id="21MhjwZY8lJwlI6bqENhMLGXcxG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,10 +58,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager">
@@ -69,42 +97,66 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1641209868557">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1641931459972">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1641209868557" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672@0.0.1280.672" timestamp="1641931459972" />
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1641207779950">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672@0.0.1280.672" timestamp="1641207779950" />
-    <state x="371" y="120" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1641209737218">
+    <state x="371" y="120" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1641931436239">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="371" y="120" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.672@0.0.1280.672" timestamp="1641209737218" />
-    <state x="399" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1639680097900">
+    <state x="371" y="120" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.672@0.0.1280.672" timestamp="1641931436239" />
+    <state x="399" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1641274307495">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="399" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.672@0.0.1280.672" timestamp="1639680097900" />
-    <state width="1237" height="161" key="GridCell.Tab.0.bottom" timestamp="1641228941427">
+    <state x="399" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.672@0.0.1280.672" timestamp="1641274307495" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1641970157089">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1641228941427" />
-    <state width="1237" height="161" key="GridCell.Tab.0.center" timestamp="1641228941427">
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1641970157089" />
+    <state x="421" y="54" key="FileChooserDialogImpl" timestamp="1641304064699">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1641228941427" />
-    <state width="1237" height="161" key="GridCell.Tab.0.left" timestamp="1641228941427">
+    <state x="421" y="54" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1641304064699" />
+    <state width="1237" height="161" key="GridCell.Tab.0.bottom" timestamp="1641970406660">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1641228941427" />
-    <state width="1237" height="161" key="GridCell.Tab.0.right" timestamp="1641228941427">
+    <state width="1237" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1641970406660" />
+    <state width="1237" height="161" key="GridCell.Tab.0.center" timestamp="1641970406659">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1641228941427" />
-    <state x="337" y="160" key="com.intellij.ide.util.TipDialog" timestamp="1641206504030">
+    <state width="1237" height="161" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1641970406659" />
+    <state width="1237" height="161" key="GridCell.Tab.0.left" timestamp="1641970406659">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="337" y="160" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1641206504030" />
+    <state width="1237" height="161" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1641970406659" />
+    <state width="1237" height="161" key="GridCell.Tab.0.right" timestamp="1641970406660">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1237" height="161" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1641970406660" />
+    <state x="316" y="35" key="NewModule_or_Project.wizard" timestamp="1641304075846">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="316" y="35" key="NewModule_or_Project.wizard/0.0.1280.672@0.0.1280.672" timestamp="1641304075846" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1641931398327">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1641931398327" />
+    <state x="337" y="160" key="com.intellij.ide.util.TipDialog" timestamp="1641969330522">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="337" y="160" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1641969330522" />
+    <state x="93" y="93" width="1095" height="487" key="dock-window-1" timestamp="1641304634504">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="93" y="93" width="1095" height="487" key="dock-window-1/0.0.1280.672@0.0.1280.672" timestamp="1641304634504" />
   </component>
 </project>

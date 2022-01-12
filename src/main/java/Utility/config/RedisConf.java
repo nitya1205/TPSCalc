@@ -16,13 +16,13 @@ public class RedisConf {
 
     public static GenericObjectPool<StatefulRedisConnection<String,String>> openRedisConnection() throws Exception{
         redisClient = RedisClient.create(AccountConfiguration.redisConnectionString);
-        if(pool == null){
+        //if(pool == null){
             pool = ConnectionPoolSupport
                     .createGenericObjectPool(() -> redisClient.connect(), new GenericObjectPoolConfig());
-        }else{
+        //}else{
             return pool;
-        }
-        return pool;
+        //}
+        //return pool;
     }
 
     public RedisCommands<String,String> redisCommandFunction() throws Exception{
